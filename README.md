@@ -1,6 +1,6 @@
 # SW485-G9
-Movie Recommendation System<br>
-Team Members:
+**Movie Recommendation System**<br>
+*Team Members*:<br>
 Ola Mahjob 444204643 <br>
 Sidrah Almazlom 444200106<br>
 Roha 444200551<br>

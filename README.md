@@ -27,7 +27,7 @@ We also selected this particular movie dataset because it provides both the scal
 
 It contains around 45,000 movies, covering a wide variety of genres and languages.
 
-It includes approximately 27 million user ratings, making it suitable for supervised learning and preference prediction.
+It includes 26 million ratings from over 270,000 users, making it suitable for supervised learning and preference prediction.
 
 It provides detailed movie metadata such as genres, and plot descriptions—ideal for NLP-based similarity computations.
 
@@ -47,7 +47,7 @@ This model will **only use the user ID** as input. The model will learn the **re
 * A merged dataset combining:
 
   * **User ratings dataset** — containing records of users, movies they have rated and the ratings they have assigned to movies.
-  * **Movie dataset** — providing metadata (genre, cast, description) that helps represent movies as feature vectors.
+  * **Movie dataset** — providing metadata (plot overview, budget, revenue,release dates, languages, production companies, countries, vote counts and vote averages) that helps represent movies as feature vectors.
 
 #### **Methodology**
 
@@ -78,7 +78,7 @@ In the second phase, the system focuses on **content-based filtering**, where re
 * Movie **metadata**, including:
 
   * **Genre**
-  * **Cast**
+  * **budget, revenue,release dates, languages, production companies, countries, vote counts and vote averages**
   * **Plot description (overview)** — used extensively through **Natural Language Processing (NLP)** techniques such as TF-IDF or embeddings to represent the semantic meaning of the movie.
 
 #### **Methodology**
